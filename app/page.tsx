@@ -8,58 +8,58 @@ import React from "react";
 export default function Home() {
   const products = [
     {
-      title: "Moonbeam",
-      link: "https://gomoonbeam.com",
+      title: "Easy Chatbot",
+      link: "https://easy-chatbot-five.vercel.app/",
       thumbnail:
         "https://pub-0cd6f9d4131f4f79ac40219248ae64db.r2.dev/ez-chatbot.png",
     },
     {
-      title: "Cursor",
-      link: "https://cursor.so",
+      title: "Designfast",
+      link: "https://designfastt.vercel.app/",
       thumbnail:
         "https://pub-0cd6f9d4131f4f79ac40219248ae64db.r2.dev/ez-designfast.png",
     },
   
     {
-      title: "Editorially",
-      link: "https://editorially.org",
+      title: "Easy Docs",
+      link: "https://easy-docs-lemon.vercel.app/",
       thumbnail:
         "https://pub-0cd6f9d4131f4f79ac40219248ae64db.r2.dev/ez-docs.png",
     },
     {
-      title: "Editrix AI",
-      link: "https://editrix.ai",
+      title: "Easy Nextui",
+      link: "https://easy-nextui.vercel.app/",
       thumbnail:
         "https://pub-0cd6f9d4131f4f79ac40219248ae64db.r2.dev/ez-nextui.png",
     },
     {
-      title: "Pixel Perfect",
-      link: "https://app.pixelperfect.quest",
+      title: "Easy Portfolio",
+      link: "https://kathann.vercel.app/home",
       thumbnail:
         "https://pub-0cd6f9d4131f4f79ac40219248ae64db.r2.dev/ez-portfolio.png",
     },
   
     {
-      title: "Algochurn",
+      title: "Getting Started",
       link: "/docs/getting-started/introduction",
       thumbnail:
         "https://pub-0cd6f9d4131f4f79ac40219248ae64db.r2.dev/ez-quotes.png",
     },
     {
-      title: "Aceternity UI",
-      link: "https://ui.aceternity.com",
+      title: "Easy Retro",
+      link: "https://retro-template.vercel.app/",
       thumbnail:
         "https://pub-0cd6f9d4131f4f79ac40219248ae64db.r2.dev/ez-retro.png",
     },
     {
-      title: "Tailwind Master Kit",
-      link: "https://tailwindmasterkit.com",
+      title: "Easy Template",
+      link: "https://ez-template1.vercel.app/",
       thumbnail:
         "https://pub-0cd6f9d4131f4f79ac40219248ae64db.r2.dev/ez-template.png",
     },
     {
-      title: "SmartBridge",
-      link: "https://smartbridgetech.com",
+      title: "Easy Waitlist",
+      link: "https://easy-waitlist.vercel.app/",
       thumbnail:
         "https://pub-0cd6f9d4131f4f79ac40219248ae64db.r2.dev/ez-waitlist.png",
     },  
