@@ -5,6 +5,11 @@ import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
 import { Footer } from "@/components/footer";
 import "./globals.css";
+import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
+import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
+import { FeaturesSectionDemo } from "@/components/feature-section-demo";
+import { SparklesCore } from "@/components/ui/sparkles";
+import { SparklesPreview } from "@/components/sparklesdemo";
 
 export const metadata: Metadata = {
   title: "Docs stater template",
@@ -33,6 +38,9 @@ export default function RootLayout({
           <Navbar />
           <main className=" mx-auto w-[100vw] h-auto">
             {children}
+            <InfiniteMovingCardsDemo />
+            <FeaturesSectionDemo />
+            <SparklesPreview />
           </main>
           <Footer />
         </ThemeProvider>
