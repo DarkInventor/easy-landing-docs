@@ -38,9 +38,9 @@ export default function RootLayout({
           <Navbar />
           <main className=" mx-auto w-[100vw] h-auto">
             {children}
-            <InfiniteMovingCardsDemo />
+            {/* <InfiniteMovingCardsDemo />
             <FeaturesSectionDemo />
-            <SparklesPreview />
+            <SparklesPreview /> */}
           </main>
           <Footer />
         </ThemeProvider>

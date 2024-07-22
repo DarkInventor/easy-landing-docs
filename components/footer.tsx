@@ -12,14 +12,14 @@ export function Footer() {
             Build by{" "}
             <Link
               className="px-1 underline underline-offset-2"
-              href="https://github.com/DarkInventor"
+              href="https://x.com/kathanmehtaa"
             >
               kathan
             </Link>
             . The source code is available on{" "}
             <Link
               className="px-1 underline underline-offset-2"
-              href="https://github.com/DarkInventor/easy-landing-docs"
+              href="https://github.com/DarkInventor/easy-ui"
             >
               GitHub
             </Link>
@@ -46,7 +46,7 @@ export function FooterButtons() {
         Deploy
       </Link>
       <Link
-        href="https://github.com/DarkInventor/easy-landing-docs"
+        href="https://github.com/DarkInventor/easy-ui"
         className={buttonVariants({ variant: "outline", size: "sm" })}
       >
         <HeartIcon className="h-4 w-4 mr-2 text-red-600 fill-current" />

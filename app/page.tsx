@@ -1,5 +1,8 @@
 "use client";
+import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
+import { FeaturesSectionDemo } from "@/components/feature-section-demo";
 import { HeroParallax } from "@/components/hero-parallax";
+import { SparklesPreview } from "@/components/sparklesdemo";
 import React from "react";
 
 export default function Home() {
@@ -62,6 +65,12 @@ export default function Home() {
     },  
   ];
   
-  return <HeroParallax products={products} />;
+  return <div>
+ <HeroParallax products={products} />
+  <InfiniteMovingCardsDemo />
+  <FeaturesSectionDemo />
+  <SparklesPreview />
+  </div>
+ ;
 }
  
